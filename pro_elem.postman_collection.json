@@ -1,0 +1,877 @@
+{
+	"info": {
+		"_postman_id": "c7d6b32a-ec40-4216-89bb-bf622870f2bc",
+		"name": "pro_elem",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "admin",
+			"item": [
+				{
+					"name": "delete user",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InVzZXJfaWQiOiIwZTQxZTMwZS02NTNiLTRkNTgtOWRiNS1lNjFjOGQ3ODMxYTQiLCJ1c2VyX25hbWUiOiJTdXBlciBBZG1pbiIsInJvbGVfaWQiOiIxNzJlN2MxNC1iZTEyLTRmNzItYjFhNi1hZGYxNWE0ZDNiM2MiLCJkZXBhcnRtZW50X2lkcyI6WyIxNDBkN2MwNC01ZjYzLTQ1YTItODcyZS0yMzhmOGE4N2YxN2YiXSwiY29tcGFueV9pZCI6IjlhZTNhNjZhLTA4ZmQtNGU3Zi04MzdkLTRhOGY4OTYzMjEwZiIsImFjY2Vzc19saXN0cyI6IntcImFtc1wiOiB7fSwgXCJobXNcIjoge30sIFwicm1zXCI6IHtcImV2ZW50XCI6IHtcInZpZXdcIjogW1wiYWxsX2RlcGFydG1lbnRcIiwgXCJ1c2VyX2RlcGFydG1lbnRcIl0sIFwiYWN0aW9uXCI6IFtcImFkZF9ldmVudFwiLCBcImFzc2lnbl9lbXBsb3llZVwiLCBcImNvbXBsZXRlX2V2ZW50XCIsIFwicGVuZGluZ19ldmVudFwiLCBcInVuY29tcGxldGVfZXZlbnRcIiwgXCJjaGFuZ2Vfc2NoZWR1bGVcIl0sIFwiaXNfYWN0aXZlXCI6IHRydWV9LCBcInJlcG9ydFwiOiB7XCJpc19hY3RpdmVcIjogdHJ1ZX0sIFwic2V0dGluZ1wiOiB7XCJpc19hY3RpdmVcIjogdHJ1ZX0sIFwicGFja2FnZXNcIjoge1wiaXNfYWN0aXZlXCI6IHRydWV9LCBcInJlbWluZGVyXCI6IHtcImlzX2FjdGl2ZVwiOiB0cnVlfSwgXCJkYXNoYm9hcmRcIjoge1wiaXNfYWN0aXZlXCI6IHRydWV9LCBcImxvc3RfYW5kX2ZvdW5kXCI6IHtcImlzX2FjdGl2ZVwiOiB0cnVlfSwgXCJldmVudF9zY2hlZHVsZWRcIjoge1widmlld1wiOiBbXCJhbGxfZGVwYXJ0bWVudFwiXSwgXCJhY3Rpb25cIjogW1wiYXNzaWduX2VtcGxveWVlXCIsIFwiY2hhbmdlX3NjaGVkdWxlXCIsIFwiY2FuY2VsX3NjaGVkdWxlXCJdLCBcImlzX2FjdGl2ZVwiOiB0cnVlfSwgXCJsb2NhdGlvbl9vdmVydmlld1wiOiB7XCJpc19hY3RpdmVcIjogdHJ1ZX0sIFwiZXZlbnRfbm90aWZpY2F0aW9uX2RlcGFydG1lbnRcIjoge1wiaXNfYWN0aXZlXCI6IHRydWV9fX0ifSwiaWF0IjoxNjM0MDk3NTA5LCJleHAiOjE2MzY2ODk1MDl9.eBEUj12LUBVPr6fNA5ZG_JtvT_UHkHBWeJG_8XcQ-R7pMfbTenW19zmJNezmgSO2kuY0r4XxXgNy-vkcrylfoGD2zvJPMJW9lvBRkurzW5Bt5eayXU0reYZKtlobcjWKH9K3uX85fgOrRdsjgZU0-o9ui_eFZScL19PArexBIy7m-ydUmgSlNTsZ5dlOr7pzC6_ybvQPZdD9AX19VTr_DataSdjgGxuS_HQ1eNfdFnr3fiyBiWrkOhwr70Fgyn9gVlTVb1qPaB71imE4zsdJzYRjsAKrhJnhIP02Iab5L5WmBCjKFXHwn8DvzvaoO8DCO_0xPIYwU_reuh7wO6Tg8g",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/user/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add category",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4iLCJzdGF0dXMiOiJhY3RpdmUiLCJpYXQiOjE2MzQxNzkxNzUsImV4cCI6MTYzNjc3MTE3NX0.I55_crdQm0L4pQ_WmMN51z3MxU--MORvY1N8-K06YaM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Pemrograman\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/category",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add course",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4iLCJzdGF0dXMiOiJhY3RpdmUiLCJpYXQiOjE2MzQxNzkxNzUsImV4cCI6MTYzNjc3MTE3NX0.I55_crdQm0L4pQ_WmMN51z3MxU--MORvY1N8-K06YaM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Pemrogaman Javascript Dasar",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "100000",
+									"type": "text"
+								},
+								{
+									"key": "category_id",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "thumbnail",
+									"type": "file",
+									"src": []
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/course",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update course",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4iLCJzdGF0dXMiOiJhY3RpdmUiLCJpYXQiOjE2MzQxNzkxNzUsImV4cCI6MTYzNjc3MTE3NX0.I55_crdQm0L4pQ_WmMN51z3MxU--MORvY1N8-K06YaM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Pemrograman Javascript untuk Pemula",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "thumbnail",
+									"type": "file",
+									"src": []
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:3000/course/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "update course",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "Pemrograman Javascript untuk Pemula",
+											"type": "text"
+										},
+										{
+											"key": "price",
+											"value": "",
+											"type": "text"
+										},
+										{
+											"key": "thumbnail",
+											"type": "file",
+											"src": []
+										}
+									]
+								},
+								"url": {
+									"raw": "localhost:3000/course/:id",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"course",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "67"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"43-GVesLuRpoEWtTZ+QMLUND0hfmvg\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 14 Oct 2021 03:05:58 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Course with id: 1 updated successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "delete course",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4iLCJzdGF0dXMiOiJhY3RpdmUiLCJpYXQiOjE2MzQxNzkxNzUsImV4cCI6MTYzNjc3MTE3NX0.I55_crdQm0L4pQ_WmMN51z3MxU--MORvY1N8-K06YaM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/course/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "delete course",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/course/:id",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"course",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "66"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"42-elhzHizZ9bgTBjJC69Gpf5fMKuw\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 14 Oct 2021 03:10:26 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"success\": true,\n    \"message\": \"Course with id 2 deleted successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "statistic",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4iLCJzdGF0dXMiOiJhY3RpdmUiLCJpYXQiOjE2MzQxNzkxNzUsImV4cCI6MTYzNjc3MTE3NX0.I55_crdQm0L4pQ_WmMN51z3MxU--MORvY1N8-K06YaM",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/statistic",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"statistic"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "statistic",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:3000/statistic",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"statistic"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "46"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2e-1a2YxCyCT4w/r8t8Ex1XFnU/bcA\""
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 14 Oct 2021 03:19:17 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"freeCourse\": 0,\n    \"totalCourse\": 1,\n    \"totalUser\": 0\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"mamat\",\r\n    \"email\": \"mamat@gmail.com\",\r\n    \"password\": \"mamat123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/register",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"mamat@gmail.com\",\r\n    \"password\": \"mamat123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/login",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get category",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4iLCJzdGF0dXMiOiJhY3RpdmUiLCJpYXQiOjE2MzQxNzkxNzUsImV4cCI6MTYzNjc3MTE3NX0.I55_crdQm0L4pQ_WmMN51z3MxU--MORvY1N8-K06YaM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/category",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"category"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get category",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/category",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"category"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "121"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"79-cjVtchkonnE0tKGp8b3ksBHidKc\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 13 Oct 2021 15:54:19 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Pemrograman\",\n        \"counter\": 0,\n        \"createdAt\": \"2021-10-13T14:37:56.000Z\",\n        \"updatedAt\": \"2021-10-13T14:37:56.000Z\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "get course",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4iLCJzdGF0dXMiOiJhY3RpdmUiLCJpYXQiOjE2MzQxNzkxNzUsImV4cCI6MTYzNjc3MTE3NX0.I55_crdQm0L4pQ_WmMN51z3MxU--MORvY1N8-K06YaM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/course",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"course"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get course",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/course",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1638"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"666-nfV6Z+i+Avq9zKTXkG0+9BVM2Qw\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 13 Oct 2021 15:29:49 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 2,\n        \"name\": \"Fundamental Javascript\",\n        \"price\": 50000,\n        \"thumbnail\": null,\n        \"category\": {\n            \"name\": \"Pemrograman\"\n        }\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Fundamental Java\",\n        \"price\": 50000,\n        \"thumbnail\": \"1634136020210-68946409.png\",\n        \"category\": {\n            \"name\": \"Pemrograman\"\n        }\n    },\n    {\n        \"id\": 4,\n        \"name\": \"Fundamental Java\",\n        \"price\": 50000,\n        \"thumbnail\": \"1634136185675-592776082.png\",\n        \"category\": {\n            \"name\": \"Pemrograman\"\n        }\n    },\n    {\n        \"id\": 5,\n        \"name\": \"Fundamental Java\",\n        \"price\": 50000,\n        \"thumbnail\": \"1634136241044-353850012.png\",\n        \"category\": {\n            \"name\": \"Pemrograman\"\n        }\n    },\n    {\n        \"id\": 6,\n        \"name\": \"Fundamental Java\",\n        \"price\": 50000,\n        \"thumbnail\": null,\n        \"category\": {\n            \"name\": \"Pemrograman\"\n        }\n    },\n    {\n        \"id\": 7,\n        \"name\": \"Fundamental Java\",\n        \"price\": 50000,\n        \"thumbnail\": null,\n        \"category\": {\n            \"name\": \"Pemrograman\"\n        }\n    },\n    {\n        \"id\": 8,\n        \"name\": \"Fundamental Java\",\n        \"price\": 50000,\n        \"thumbnail\": null,\n        \"category\": {\n            \"name\": \"Pemrograman\"\n        }\n    },\n    {\n        \"id\": 9,\n        \"name\": \"Fundamental Java\",\n        \"price\": 50000,\n        \"thumbnail\": null,\n        \"category\": {\n            \"name\": \"Pemrograman\"\n        }\n    },\n    {\n        \"id\": 10,\n        \"name\": \"Fundamental Java\",\n        \"price\": 50000,\n        \"thumbnail\": null,\n        \"category\": {\n            \"name\": \"Pemrograman\"\n        }\n    },\n    {\n        \"id\": 11,\n        \"name\": \"Fundamental Java\",\n        \"price\": 50000,\n        \"thumbnail\": null,\n        \"category\": {\n            \"name\": \"Pemrograman\"\n        }\n    },\n    {\n        \"id\": 12,\n        \"name\": \"Fundamental Java\",\n        \"price\": 50000,\n        \"thumbnail\": \"https://res.cloudinary.com/dqjownfsh/image/upload/v1634137260/ba3vji8espmfofdrahtx.png\",\n        \"category\": {\n            \"name\": \"Pemrograman\"\n        }\n    },\n    {\n        \"id\": 13,\n        \"name\": \"Fundamental Java\",\n        \"price\": 50000,\n        \"thumbnail\": \"https://res.cloudinary.com/dqjownfsh/image/upload/v1634137425/ibpmgxciamvu2zifbvop.png\",\n        \"category\": {\n            \"name\": \"Pemrograman\"\n        }\n    },\n    {\n        \"id\": 14,\n        \"name\": \"Fundamental Java\",\n        \"price\": 50000,\n        \"thumbnail\": \"https://res.cloudinary.com/dqjownfsh/image/upload/v1634137853/abqjrbgcc7qrd9gihguc.png\",\n        \"category\": {\n            \"name\": \"Pemrograman\"\n        }\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "course detail",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4iLCJzdGF0dXMiOiJhY3RpdmUiLCJpYXQiOjE2MzQxNzkxNzUsImV4cCI6MTYzNjc3MTE3NX0.I55_crdQm0L4pQ_WmMN51z3MxU--MORvY1N8-K06YaM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/course/:id",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"course",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "course detail",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/course/:id",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"course",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "14"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "278"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"116-3dbo/YrYs30Fcscvw0FJJQy6mx0\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 13 Oct 2021 15:53:50 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 14,\n    \"name\": \"Fundamental Java\",\n    \"price\": 50000,\n    \"thumbnail\": \"https://res.cloudinary.com/dqjownfsh/image/upload/v1634137853/abqjrbgcc7qrd9gihguc.png\",\n    \"createdAt\": \"2021-10-13T15:10:54.000Z\",\n    \"updatedAt\": \"2021-10-13T15:10:54.000Z\",\n    \"category_id\": 1,\n    \"category\": {\n        \"name\": \"Pemrograman\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "get popular category",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYWRtaW4iLCJzdGF0dXMiOiJhY3RpdmUiLCJpYXQiOjE2MzQxNzkxNzUsImV4cCI6MTYzNjc3MTE3NX0.I55_crdQm0L4pQ_WmMN51z3MxU--MORvY1N8-K06YaM",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/category/popular",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"category",
+						"popular"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get popular category",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/category/popular",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"category",
+								"popular"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "121"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"79-0v0prdIxKO0rR0Fj8lJWGN+xaCw\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 14 Oct 2021 03:34:08 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Pemrograman\",\n        \"counter\": 3,\n        \"createdAt\": \"2021-10-14T02:40:27.000Z\",\n        \"updatedAt\": \"2021-10-14T03:29:26.000Z\"\n    }\n]"
+				}
+			]
+		}
+	]
+}
